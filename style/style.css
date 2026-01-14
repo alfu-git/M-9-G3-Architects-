@@ -95,6 +95,10 @@ section.header .navbar{
   font-weight: 700;
 }
 
+.navbar p:hover{
+  color: #268d19;
+}
+
 .navbar ul{
   gap: 50px;
 }
@@ -160,6 +164,17 @@ section.header .navbar{
   .hero-area p{
     padding: 0;
   }
+
+  .btn{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #FF900E;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 500;
+}
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -222,6 +237,134 @@ section.header .navbar{
   }
 
   .hero-area p{
-    padding: 0;
+    margin: 20px 0;
   }
+}
+
+/* f-quicklist section */
+section.f-quicklist{
+  margin-top: 85px;
+}
+
+.f-ql-content{
+  gap: 73px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-ql-content .img-area{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.f-ql-content .text-area{
+  width: 537px;
+}
+
+.f-ql-content .text-area #unq-h2{
+  font-size: 2.8em;
+}
+
+.f-ql-content .text-area #unq-h2 .ql{
+  font-weight: 500;
+}
+
+.f-ql-content .text-area #unq-h2 .or{
+  font-weight: 700;
+}
+.f-ql-content .text-area #unq-h2 .f{
+  color: #FF900E;
+  font-weight: 700;
+}
+
+.f-ql-content .text-area p{
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 480px){
+  .f-ql-content{
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .f-ql-content .img-area{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.f-ql-content .text-area{
+  width: auto;
+}
+
+.f-ql-content .text-area #unq-h2{
+  font-size: 1.80em;
+  margin-bottom: 20px;
+}
+
+.f-ql-content .text-area p{
+  margin-bottom: 20px;
+}
+
+.f-ql-content .text-area .btn-span{
+  display: block;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .f-ql-content{
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .f-ql-content .img-area{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.f-ql-content .text-area{
+  text-align: center;
+  width: auto;
+}
+
+.f-ql-content .text-area #unq-h2{
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.f-ql-content .text-area p{
+  margin-bottom: 20px;
+}
+
+.f-ql-content .text-area .btn-span{
+  display: block;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .f-ql-content{
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .f-ql-content .img-area{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.f-ql-content .text-area{
+  text-align: center;
+  width: auto;
+}
+
+.f-ql-content .text-area #unq-h2{
+  font-size: 2.4;
+  margin-bottom: 10px;
+}
+
+.f-ql-content .text-area p{
+  margin-bottom: 20px;
+}
+
+.f-ql-content .text-area .btn-span{
+  display: block;
+}
 }
