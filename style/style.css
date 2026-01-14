@@ -751,3 +751,47 @@ section.sponsors{
   text-align: center;
 }
 }
+
+/* footer section */
+section.footer{
+  margin-bottom: 200px;
+}
+
+section.footer .footer-content{
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 38px 0;
+}
+
+section.footer .footer-content p{
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+section.footer{
+  margin-bottom: 100px;
+}
+
+section.footer .footer-content{
+  padding: 20px 0;
+}
+
+section.footer .footer-content p{
+  font-size: 0.9em;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+section.footer{
+  margin-bottom: 150px;
+}
+
+section.footer .footer-content p{
+  font-size: 1.2em;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  section.footer{
+   margin-bottom: 170px;
+}
+}
